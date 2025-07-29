@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#5F9B05</headerColor>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
+    <label>Spotify</label>
+    <navType>Standard</navType>
+    <tabs>standard-AnalyticsDataManager</tabs>
+    <tabs>Manager__c</tabs>
+    <tabs>Artist__c</tabs>
+    <tabs>Album__c</tabs>
+    <tabs>Song__c</tabs>
+    <tabs>Playlist_Song__c</tabs>
+    <tabs>User_Playlist__c</tabs>
+    <tabs>User__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Spotify_UtilityBar</utilityBar>
+</CustomApplication>
