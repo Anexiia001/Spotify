@@ -1,0 +1,52 @@
+<template>
+    <h1>Song list</h1>
+    <template if:true={newSongs}>
+        <template for:each={newSongs} for:item="song">
+            <div key={song.Id} class="slds-p-around_medium">
+                <h1>{song.Name}</h1>
+                <p>{song.Release_Date__c}</p>
+                
+            </div>
+        </template>
+    </template>
+    <h1>Albums list</h1>
+    <template if:true={albumes}>
+        <template for:each={albumes} for:item="album">
+            <div key={album.Id} class="slds-p-around_medium">
+                <h1>{album.Name}</h1>
+                <p>{album.Release_Date__c}</p>  
+            </div>
+        </template>
+    </template>
+    <h1>Playlists</h1>
+    <h2>Tus playlist principales</h2>
+    <template if:true={playlist_Main}>
+        <template for:each={playlist_Main} for:item="playlist">
+            <div key={playlist.Id} class="slds-p-around_medium">
+                <h1>{playlist_Main.Name__c}</h1>
+                <p>{playlist_Main.Cant_Songs__c}</p>
+                <p>{playlist_Main.Playlist_Time_Duration__c}</p>
+            </div>
+        </template>
+    </template>
+    <h2>Tus playlist privadas</h2>
+    <template if:true={playlist_Private}>
+        <template for:each={playlist_Private} for:item="playlist">
+            <div key={playlist.Id} class="slds-p-around_medium">
+                <h1>{playlist_Main.Name__c}</h1>
+                <p>{playlist_Main.Cant_Songs__c}</p>
+                <p>{playlist_Main.Playlist_Time_Duration__c}</p>
+            </div>
+        </template>
+    </template>
+    <h2>Tus playlist publicas</h2>
+    <template if:true={playlist_Public}>
+        <template for:each={playlist_Public} for:item="playlist">
+            <div key={playlist.Id} class="slds-p-around_medium">
+                <h1>{playlist_Main.Name__c}</h1>
+                <p>{playlist_Main.Cant_Songs__c}</p>
+                <p>{playlist_Main.Playlist_Time_Duration__c}</p>
+            </div>
+        </template>
+    </template>
+</template>
