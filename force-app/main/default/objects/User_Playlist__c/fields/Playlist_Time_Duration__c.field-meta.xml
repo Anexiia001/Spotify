@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Playlist_Time_Duration__c</fullName>
+    <label>Playlist Time Duration</label>
+    <summarizedField>Playlist_Song__c.Duration_Num__c</summarizedField>
+    <summaryForeignKey>Playlist_Song__c.PlaylistId__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>
