@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DigitalExperienceConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Spotify</label>
+    <site>
+        <urlPathPrefix>spotify</urlPathPrefix>
+    </site>
+    <space>site/Spotify1</space>
+</DigitalExperienceConfig>
