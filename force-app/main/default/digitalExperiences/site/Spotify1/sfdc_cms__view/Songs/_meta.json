@@ -1,0 +1,5 @@
+{
+  "apiName" : "Songs",
+  "type" : "sfdc_cms__view",
+  "path" : "views"
+}

@@ -1,0 +1,67 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Songs",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"3d895b6a-ad0e-4327-a127-1ded6b368fb9\",\"columns\":[{\"UUID\":\"922b1878-a246-4994-8e1d-d1103407c8c3\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : { },
+              "definition" : "c:spotifyLandingPage",
+              "id" : "b47d8ec2-d143-45e9-8694-d5f70a5ffa00",
+              "type" : "component"
+            } ],
+            "id" : "922b1878-a246-4994-8e1d-d1103407c8c3",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "3d895b6a-ad0e-4327-a127-1ded6b368fb9",
+          "type" : "component"
+        } ],
+        "id" : "66e8d86d-c3fd-4363-9fd8-6bf042330a1e",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Songs",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "172a4e71-2a2e-4fb4-93ba-c35806d7a416",
+          "type" : "component"
+        } ],
+        "id" : "ab158a6a-8a6f-4c3f-a126-c8ba711bd96d",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "049f470d-35f2-4009-a2f2-d37112e023c0",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-songs"
+  },
+  "urlName" : "songs"
+}

@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Songs",
+  "contentBody" : {
+    "activeViewId" : "Songs",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-songs",
+    "urlPrefix" : "songs"
+  },
+  "urlName" : "songs"
+}
